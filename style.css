@@ -1,0 +1,41 @@
+body {
+  background: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+  background: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.row {
+  display: flex;
+}
+
+main {
+  flex: 3;
+  margin-right: 3rem;
+}
+
+footer {
+  background: rgb(79, 115, 182);
+  color: white;
+  margin-top: 3rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+#gacha-display{
+  margin-top: 1rem;
+  min-height: 2rem;
+}
+
+#gacha-button{
+  margin-bottom: 3rem;
+}
